@@ -1,0 +1,42 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+CheckBox
+    android:id="@+id/checkBox2"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_weight="0.64"
+    android:checked="false"
+    android:text="Agree" />
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="51dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:paddingTop="0dp"
+    android:text="Name"
+    android:layout_weight="0.36" />
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="51dp"
+    android:ems="10"
+    android:inputType="textPersonName"
+    android:paddingTop="0dp"
+    android:text="Name"
+    android:layout_weight="0.36" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pending"
+    />
+</LinearLayout>
